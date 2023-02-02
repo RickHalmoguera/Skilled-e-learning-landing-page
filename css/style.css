@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+body {
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  color: #83869A;
+  font-weight: 500;
+  background-color: #13183F;
+  background: linear-gradient(to bottom, #ffffff 60%, rgba(102, 108, 163, 0.2745098039));
+}
+
+.main-container {
+  max-width: 1440px;
+  padding: 0 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+header, footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-main {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #ffffff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 50px;
+  background-color: #13183F;
+}
+.btn-main:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 501px) {
+  .hero-container {
+    flex-direction: row;
+  }
+}
+.hero-container .hero-text-container {
+  max-width: 457px;
+}
+.hero-container .hero-text-container h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #13183F;
+}
+.hero-container .hero-text-container .text {
+  font-size: 1.2rem;
+  margin: 2em 0;
+}
+.hero-container .hero-text-container .btn-sec {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #ffffff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #FF6F48, #F02AA6);
+}
+.hero-container .hero-text-container .btn-sec:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.hero-container .hero-img-container img {
+  width: 100%;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.courses-container .card-main {
+  min-height: 120px;
+  border-radius: 10px;
+  width: 350px;
+  color: #ffffff;
+  padding: 1.5em;
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+}
+.courses-container .card {
+  position: relative;
+  padding: 0 1.5em 1.5em 1.5em;
+  max-width: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.courses-container .card-icon {
+  position: relative;
+  top: -25px;
+}
+.courses-container h3 {
+  font-size: 1.5rem;
+  color: #13183F;
+  margin-top: 0;
+}
+
+footer {
+  background-color: #13183F;
+}
+footer .btn-footer {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #ffffff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+}
+footer .btn-footer:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */
