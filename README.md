@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-using-html-and-scss-BzJoGQx5oK]
-- Live Site URL: [https://rickhalmoguera.github.io/product_preview-card-component/]
+- [Solution URL](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-using-html-and-scss-BzJoGQx5oK)
+- [Live Site URL](https://rickhalmoguera.github.io/product_preview-card-component/)
 
 ## My process
 
